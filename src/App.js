@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
-
-
 function App() {
   const [tasks, setTasks] = useState([]);
   const [taskCounts, setTaskCounts] = useState({});
